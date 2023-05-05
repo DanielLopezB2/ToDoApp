@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>ToDo App</title>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="titulo">
+
+            <div class="fecha"><h4 id="fecha"></h4></div>
+       
+            <h1> Lista de Tareas</h1>
+            <span>Vamos a cumplir tus metas de hoy</span>
+
+        </div>
+
+        <div class="agregar-tarea">
+
+            <input type="text" id="input" placeholder="Agregar una tarea">
+            <i class='bx bx-plus' id="enter"></i>
+
+        </div>
+
+        <div class="seccion-tarea">
+
+            <h3>Tareas pendientes</h3>
+            <ul id="lista">
+                
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
